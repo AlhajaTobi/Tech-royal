@@ -1,0 +1,5 @@
+import time
+
+
+c = time.time()
+print(c)

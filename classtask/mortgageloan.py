@@ -1,0 +1,12 @@
+principal = int(input("Enter the loan amount"))
+annual_interest_rate = input("Enter the annual interest rate")
+duration_years = int(input("enter the duration of the loan inyears"))
+monthly_payment = duration_years **12
+Rate = (1 + monthly_payment)**120
+calculate = monthly_payment*Rate
+Division = (1+ Monthly_payment)**120
+Divide = Division -1 
+Calculation = calculation/divide
+monthly_return = principal - calculation
+print(monthly_return)
+

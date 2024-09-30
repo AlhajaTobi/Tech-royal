@@ -1,0 +1,10 @@
+import unittest
+import cube
+
+
+class Testcube(unittest.TestCase) :
+	def test_that_cube_function_exist(self) :
+		cube.get_cube(3)
+	
+	def test_that_cube_function_returns_cube_result(self):
+		self.assertEqual(cub.get_cube(10), 1000)

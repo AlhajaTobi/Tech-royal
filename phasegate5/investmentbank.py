@@ -8,5 +8,5 @@ for number in range(1, number_of_years+1):
 	rate = user_investment * (interest_percentage/100)
 	investment = user_investment + rate
 	user_investment = investment
-	print(f"{rate}{investment}")
+	print(rate, investment)
 				
